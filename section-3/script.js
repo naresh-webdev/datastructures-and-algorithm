@@ -14,6 +14,8 @@ function same(arr1, arr2) {
     else obj2[item]++;
   }
 
+  console.log(obj1 === obj2);
+
   console.log(squaredArr1, arr2, obj1, obj2);
 }
 
